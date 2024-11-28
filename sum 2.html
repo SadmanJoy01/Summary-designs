@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: circle;
+  max-width: 250px;
+}
+p {
+  width: 290px;
+}
+
+summary { width: 180px;   list-style: none; }
+
+
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  background: #571de9; 
+  border-radius: 5px; 
+  content: "+"; 
+  color: #fff; 
+  float: left; 
+  font-size: 1.3em; 
+  margin: -5px 10px 0 0; 
+  padding: 0; 
+  text-align: center; 
+  width: 20px;
+}
+details[open] summary:after {
+  content: "-";
+}
+details {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+    color: #363636;
+    margin: 0 0 .4em;
+    padding: 1%;
+}
+
+    </style>
+    
+    <details>
+        <summary>Ingredients</summary>
+        <p>
+          <ul>
+            <li>3 tbsp olive oil</li>
+            <li>2 red onions, sliced</li>
+            <li>2 red peppers, sliced</li>
+            <li>3 red chillies, 2 deseeded and chopped, 1 sliced</li>
+            
+        </p>
+      </details>
+      <details>
+        <summary>Step 1.</summary>
+        <p>Heat 2 tbsp of the oil in your largest pan, then fry the onions, peppers, chopped chilli and coriander stalks with half the garlic for 10 mins until soft. Stir in 2 tsp ground coriander and 2 tsp cumin seeds, then fry for 1 min more. Meanwhile, in another
+          frying pan, fry the chicken in the remaining oil, in batches, until browned – add it to the pan of veg as it is done.</p>
+      </details>
+      <details>
+        <summary>Step 2.</summary>
+        <p>Stir the beans, sweetcorn, coriander leaves and 150ml of the passata into the veg and chicken. In a bowl, mix the rest of the passata with the other crushed garlic clove, the remaining spices and the sugar, then set aside.</p>
+      </details>
+      <details>
+        <summary>Step 3.</summary>
+        <p>To assemble, lay the tortillas onto a board and divide the chicken mixture between them, folding over the ends and rolling up to seal. Divide the passata sauce into the dishes you are using, then top with the enchiladas. Dot over the soured cream, sprinkle
+          with grated cheese and scatter with the sliced chilli.</p>
+      </details>
+      <details>
+        <summary>Step 4.</summary>
+        <p>Cool and freeze (see freezing tips, below) or, if eating straight away, heat oven to 200C/180C fan/gas 6, then bake for 30 mins, scattering with more coriander leaves to serve, if you like</p>
+      </details>
+
+</body>
+</html>
